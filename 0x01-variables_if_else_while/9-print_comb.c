@@ -1,3 +1,4 @@
+#include <stdlib.h>
 #include <stdio.h>
 /* Write a program that prints all possible combinations of single-digit numbers. */
 
@@ -9,7 +10,7 @@
 int main(void)
 {
 	int i;
-
+	/* for loop. */
 	for (i = 48; i < 58; i++)
 	{
 		putchar(i);
