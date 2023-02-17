@@ -1,4 +1,3 @@
-#include <stdlib.h>
 #include <stdio.h>
 /* Write a program that prints all possible combinations of single-digit numbers. */
 
