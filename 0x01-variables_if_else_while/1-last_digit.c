@@ -1,15 +1,14 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/* program will assign a random number to the variable n each time it is executed. */
+/* program assign a random number to variable n each time it executed */
 
 /**
  * main - prints the last digit of n and prints out whether it is
  * greater than 5, 0, or less than 6
  * Return: 0
  */
-int main(void)
-{
+int main(void){
 	int n;
 	int lastDigit;
 	srand(time(0));
