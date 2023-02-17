@@ -2,14 +2,16 @@
 #include <stdio.h>
 
 /**
- * Write a program that prints the lowercase alphabet in reverse, followed by a new line.
+ * Write a program that prints the lowercase alphabet in reverse
  * main - Entrry point
  * Return: 0
  */
-int main(void){
+int main(void)
+{
 	char a = 'z';
-
-	while (a >= 'a'){
+	/* while loop */
+	while (a >= 'a')
+	{
 		putchar(a);
 		a--;
 	}
