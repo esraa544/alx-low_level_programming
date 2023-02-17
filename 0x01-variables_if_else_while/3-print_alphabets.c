@@ -2,8 +2,8 @@
 #include <stdio.h>
 
 /**
+ * Write a program that prints the alphabet in lowercase, and then in uppercase, followed by a new line.
  * main - Entry point
- *
  * Return: 0
  */
 int main(void){
