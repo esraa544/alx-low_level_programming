@@ -8,7 +8,8 @@
  * greater than 5, 0, or less than 6
  * Return: 0
  */
-int main(void){
+int main(void)
+{
 	int n;
 	int lastDigit;
 	srand(time(0));
