@@ -1,8 +1,9 @@
 #include <stdlib.h>
 #include <stdio.h>
+/*  Write a program that prints the lowercase alphabet in reverse */
+
 
 /**
- * Write a program that prints the lowercase alphabet in reverse
  * main - Entrry point
  * Return: 0
  */
