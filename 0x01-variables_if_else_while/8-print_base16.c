@@ -12,7 +12,7 @@ int main(void)
 	/* for loop */
 	for (j = 48; j < 58; j++)
 	{
-		putchar(j);}
+		putchar(j); }
 	for (j = 'a'; j <= 'f'; j++)
 	{
 		putchar(j);
