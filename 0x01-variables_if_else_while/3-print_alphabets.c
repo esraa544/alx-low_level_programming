@@ -1,22 +1,26 @@
 #include <stdlib.h>
 #include <stdio.h>
+/* Program prints the alphabet in lowercase, and then in uppercase*/
 
 /**
- * Write a program that prints the alphabet in lowercase, and then in uppercase, followed by a new line.
  * main - Entry point
  * Return: 0
  */
-int main(void){
+int main(void)
+{
 	char a = 'a';
 
-	while (a <= 'z'){
+	/* while loop */
+	while (a <= 'z')
+	{
 		putchar(a);
 		a++;
 	}
 
 	a = 'A';
 
-	while (a <= 'Z'){
+	while (a <= 'Z')
+	{
 		putchar(a);
 		a++;
 	}
