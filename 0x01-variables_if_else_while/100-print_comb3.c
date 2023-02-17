@@ -1,6 +1,8 @@
 #include <stdlib.h>
 #include <stdio.h>
+
 /**
+ * Write a program that prints all possible different combinations of two digits.
  * main - prints out all the numbers between 00 and 99
  * with no two digits being the same
  * Return: 0
@@ -19,8 +21,7 @@ int main(void){
 
 			if (i == 56 && j == 57){
 				break;
-			}
-			else{
+			} else{
 				putchar(',');
 				putchar(' ');
 			}
