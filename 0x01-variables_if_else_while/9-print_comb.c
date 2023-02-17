@@ -2,8 +2,8 @@
 #include <stdio.h>
 
 /**
+ * Write a program that prints all possible combinations of single-digit numbers.
  * main - Entry point
- *
  * Return: 0
  */
 int main(void){
