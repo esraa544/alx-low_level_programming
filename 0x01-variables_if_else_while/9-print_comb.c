@@ -1,9 +1,8 @@
 #include <stdlib.h>
 #include <stdio.h>
-/* Write a program that prints all possible combinations of single-digit numbers. */
+/* Write a program that prints combinations of single-digit numbers. */
 
 /**
- * Write a program that prints all possible combinations of single-digit numbers.
  * main - Entry point
  * Return: 0
  */
