@@ -10,7 +10,7 @@
 int main(void)
 {
 	int i, j;
-	
+
 	/* for loop */
 	for (i = 0; i < 9; i++)
 	{
@@ -20,8 +20,10 @@ int main(void)
 			putchar((j % 10) + '0');
 
 			if (i == 8 && j == 9)
+			{
 				continue;
-			
+			}
+
 			putchar(',');
 			putchar(' ');
 		}
