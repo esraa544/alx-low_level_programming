@@ -1,7 +1,7 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/* This program will assign a random number to the variable n each time it is executed. */
+/* program will assign a random number to the variable n each time it is executed. */
 
 /**
  * main - prints the last digit of n and prints out whether it is
@@ -11,11 +11,9 @@
 int main(void)
 {
 	int n;
-
+	int lastDigit;
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	  
-  	int lastDigit;
 
 	lastDigit = n % 10;
 	printf("Last digit of %i is %i and is ", n, lastDigit);
